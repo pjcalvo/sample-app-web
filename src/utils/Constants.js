@@ -5,7 +5,7 @@ export const VALID_USERNAMES = [
   "problem_user",
   "performance_glitch_user",
 ];
-export const VALID_PASSWORD = "secret_sauce";
+export const VALID_PASSWORD = "secret_coffee";
 export const ROUTES = {
   LOGIN: "/",
   INVENTORY: "/inventory.html",

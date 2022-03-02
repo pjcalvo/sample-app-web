@@ -19,7 +19,7 @@ export const PRODUCTS = {
 export const LOGIN_USERS = {
     LOCKED: {
         username: 'locked_out_user',
-        password: 'secret_sauce',
+        password: 'secret_coffee',
     },
     NO_MATCH: {
         username: 'd',
@@ -35,11 +35,11 @@ export const LOGIN_USERS = {
     },
     PERFORMANCE: {
         username: 'performance_glitch_user',
-        password: 'secret_sauce',
+        password: 'secret_coffee',
     },
     STANDARD: {
         username: 'standard_user',
-        password: 'secret_sauce',
+        password: 'secret_coffee',
     },
 };
 export const PERSONAL_INFO = {

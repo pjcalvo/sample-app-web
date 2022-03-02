@@ -129,12 +129,10 @@ function Login(props) {
               <br />
               problem_user
               <br />
-              performance_glitch_user
-              <br />
             </div>
             <div className="login_password">
               <h4>Password for all users:</h4>
-              secret_sauce
+              secret_coffee
             </div>
           </div>
         </div>

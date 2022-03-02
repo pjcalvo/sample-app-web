@@ -2,6 +2,7 @@
   text-align: center;
   padding: 30px 0;
   background: url("../assets/img/SwagLabs_logo.png") no-repeat center center;
+  background-size: contain;
   margin-top: 30px;
 }
 .login_wrapper {
@@ -30,6 +31,7 @@
   background: url("../assets/img/Login_Bot_graphic.png") no-repeat center center;
   min-height: 260px;
   min-width: 300px;
+  background-size: cover;
 }
 .login-button {
   margin: 20px auto;
@@ -79,5 +81,6 @@
       center;
     min-height: 260px;
     min-width: 300px;
+    background-size: cover;
   }
 }

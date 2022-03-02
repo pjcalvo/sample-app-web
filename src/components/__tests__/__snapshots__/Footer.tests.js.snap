@@ -11,7 +11,7 @@ exports[`Footer should render correctly 1`] = `
       className="social_twitter"
     >
       <a
-        href="https://twitter.com/saucelabs"
+        href="https://twitter.com/mindfuldevtest"
         rel="noreferrer"
         target="_blank"
       >
@@ -19,21 +19,10 @@ exports[`Footer should render correctly 1`] = `
       </a>
     </li>
     <li
-      className="social_facebook"
-    >
-      <a
-        href="https://www.facebook.com/saucelabs"
-        rel="noreferrer"
-        target="_blank"
-      >
-        Facebook
-      </a>
-    </li>
-    <li
       className="social_linkedin"
     >
       <a
-        href="https://www.linkedin.com/company/sauce-labs/"
+        href="https://www.linkedin.com/pjcalvov/"
         rel="noreferrer"
         target="_blank"
       >
@@ -46,12 +35,7 @@ exports[`Footer should render correctly 1`] = `
   >
     © 
     1234
-     Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy
+     coffeestain.io
   </div>
-  <img
-    alt="Swag Bot Footer"
-    className="footer_robot"
-    src="test-file-stub"
-  />
 </footer>
 `;
