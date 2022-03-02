@@ -16,9 +16,12 @@
   width: 70px;
 }
 
-.cart_item_label > a {
+.cart_item_label > button {
   color: #4a4a4a;
   text-decoration: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
 }
 
 .cart_item_label {

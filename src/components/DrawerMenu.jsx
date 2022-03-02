@@ -32,7 +32,7 @@ const DrawerMenu = ({ history }) => {
       pageWrapId={"contents_wrapper"}
       noOverlay
     >
-      <a
+      <button
         id="inventory_sidebar_link"
         className="menu-item"
         href="#"
@@ -42,11 +42,8 @@ const DrawerMenu = ({ history }) => {
         }}
       >
         All Items
-      </a>
-      <a id="about_sidebar_link" className="menu-item" href={aboutLink}>
-        About
-      </a>
-      <a
+      </button>
+      <button
         id="logout_sidebar_link"
         className="menu-item"
         href="#"
@@ -57,8 +54,8 @@ const DrawerMenu = ({ history }) => {
         }}
       >
         Logout
-      </a>
-      <a
+      </button>
+      <button
         id="reset_sidebar_link"
         className="menu-item"
         href="#"
@@ -68,7 +65,7 @@ const DrawerMenu = ({ history }) => {
         }}
       >
         Reset App State
-      </a>
+      </button>
     </Menu>
   );
 };

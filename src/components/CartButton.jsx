@@ -28,9 +28,9 @@ const CartButton = (props) => {
   }
 
   return (
-    <a className="shopping_cart_link" onClick={() => history.push(ROUTES.CART)}>
+    <button className="shopping_cart_link" onClick={() => history.push(ROUTES.CART)}>
       {cartBadge}
-    </a>
+    </button>
   );
 };
 

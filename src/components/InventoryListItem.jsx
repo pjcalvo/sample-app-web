@@ -84,7 +84,7 @@ const InventoryListItem = (props) => {
   return (
     <div className="inventory_item">
       <div className="inventory_item_img">
-        <a
+        <button
           href="#"
           id={`item_${id}_img_link`}
           onClick={(evt) => {
@@ -97,11 +97,11 @@ const InventoryListItem = (props) => {
             className="inventory_item_img"
             src={require(`../assets/img/${url}`).default}
           />
-        </a>
+        </button>
       </div>
       <div className="inventory_item_description">
         <div className="inventory_item_label">
-          <a
+          <button
             href="#"
             id={`item_${id}_title_link`}
             onClick={(evt) => {
@@ -110,7 +110,7 @@ const InventoryListItem = (props) => {
             }}
           >
             <div className="inventory_item_name">{name}</div>
-          </a>
+          </button>
           <div className="inventory_item_desc">{desc}</div>
         </div>
         <div className="pricebar">

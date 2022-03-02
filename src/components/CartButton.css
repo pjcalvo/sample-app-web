@@ -6,6 +6,8 @@
   width: 40px;
   display: block;
   position: relative;
+  border: none;
+  cursor: pointer;
 }
 
 .shopping_cart_badge {

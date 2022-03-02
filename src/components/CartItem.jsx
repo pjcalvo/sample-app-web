@@ -34,16 +34,9 @@ const CartItem = ({ item, history, showButton }) => {
       <div className="cart_item">
         <div className="cart_quantity">1</div>
         <div className="cart_item_label">
-          <a
-            href="#"
-            id={`item_${id}_title_link`}
-            onClick={(evt) => {
-              evt.preventDefault();
-              history.push(itemLink);
-            }}
-          >
+          <button id={`item_${id}_title_link`} onClick={(evt) => { evt.preventDefault(); history.push(itemLink); }}>
             <div className="inventory_item_name">{name}</div>
-          </a>
+          </button>
           <div className="inventory_item_desc">{desc}</div>
           <div className="item_pricebar">
             <div className="inventory_item_price">${price}</div>
