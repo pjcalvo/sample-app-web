@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import { slide as Menu } from "react-burger-menu";
 import { ShoppingCart } from "../utils/shopping-cart";
 import { ROUTES } from "../utils/Constants";
-import { isProblemUser, removeCredentials } from "../utils/Credentials";
+import { removeCredentials } from "../utils/Credentials";
 import menuClosePng from "../assets/img/close.png";
 import menuCloseSvg from "../assets/svg/close@3x.svg";
 import menuIconPng from "../assets/img/menu.png";
@@ -16,9 +16,6 @@ const DrawerMenu = ({ history }) => {
     // Wipe out our shopping cart now
     ShoppingCart.resetCart();
   };
-  const aboutLink = isProblemUser()
-    ? "https://saucelabs.com/error/404"
-    : "https://saucelabs.com/";
 
   return (
     <Menu
