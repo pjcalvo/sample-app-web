@@ -19,7 +19,7 @@ const CartButton = (props) => {
 
   useEffect(() => {
     ShoppingCart.registerCartListener(cartListener);
-  }, []);
+  },);
 
   if (cartContents.length > 0) {
     cartBadge = (
