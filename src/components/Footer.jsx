@@ -24,9 +24,13 @@ const SwagLabsFooter = () => {
           </a>
         </li>
       </ul>
-
       <div className="footer_copy">
-        &copy; {new Date().getFullYear()} coffeestain.io
+        &copy; {new Date().getFullYear()} coffeestain.io. <br/><br/>Web App forked from SauceLabs: <a
+            href="https://github.com/saucelabs/sample-app-web"
+            target="_blank"
+            rel="noreferrer">
+              https://github.com/saucelabs/sample-app-web
+          </a>
       </div>
     </footer>
   );
